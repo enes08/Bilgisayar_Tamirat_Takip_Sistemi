@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="500.0" maxWidth="800.0" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bilgisayar_tamirat_takip_sistemi.HakkimizdafxmlController">
+   <children>
+      <ImageView fx:id="logoImageview" fitHeight="116.0" fitWidth="167.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="alt_ResimImageview" fitHeight="70.0" fitWidth="777.0" layoutX="14.0" layoutY="416.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="hakkimizdaPane" fitHeight="395.0" fitWidth="593.0" layoutX="196.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

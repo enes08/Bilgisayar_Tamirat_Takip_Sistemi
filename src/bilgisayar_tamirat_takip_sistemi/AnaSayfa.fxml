@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anasayfaarka" maxHeight="400.0" maxWidth="700.0" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bilgisayar_tamirat_takip_sistemi.AnaSayfaController">
+   <children>
+      <MenuBar layoutY="2.0" prefHeight="24.0" prefWidth="1000.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Müşteri">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#menu_yenikayit" text="Yeni Kayıt" />
+                  <MenuItem mnemonicParsing="false" onAction="#teslimat_action" text="Teslimat" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Tanirat">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#tamirat_ekle" text="Tamirat Ekle" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="İşlemler">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#Yeni_urun_ekle" text="Yeni Ürun Ekle" />
+                  <MenuItem mnemonicParsing="false" onAction="#Yeni_tamirat" text="Yeni Tamirat" />
+                  <MenuItem mnemonicParsing="false" onAction="#yeni_sikayet" text="Yeni Şikayet" />
+                  <MenuItem mnemonicParsing="false" onAction="#yen_calisan_ekle" text="Yeni Çalışan Ekle" />
+                  <MenuItem mnemonicParsing="false" onAction="#eski_calısan_sil" text="Eski Çalışan Sil" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Hakkımızda">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#hakkimizda_button" text="Hakkımızda" />
+               </items></Menu>
+        </menus>
+      </MenuBar>
+      <Text fx:id="kayanyazitext" fill="#cd0404" layoutX="64.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font size="33.0" />
+         </font></Text>
+      <Text fill="#cd0404" layoutX="292.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BİZİ SEÇTİĞİNİZ İÇİN TEŞEKKÜRLER...">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

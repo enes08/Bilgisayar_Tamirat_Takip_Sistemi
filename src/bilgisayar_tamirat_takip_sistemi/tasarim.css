@@ -1,0 +1,15 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08.Ara.2015, 19:56:36
+    Author     : enes_08
+*/
+.pane{
+    -fx-background-image: url("images.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+    
+}

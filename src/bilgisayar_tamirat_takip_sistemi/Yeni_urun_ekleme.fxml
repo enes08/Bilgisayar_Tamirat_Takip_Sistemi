@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="337.0" prefWidth="668.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bilgisayar_tamirat_takip_sistemi.Yeni_urun_eklemeController">
+   <children>
+      <TextField fx:id="urunaciklamasi" layoutX="199.0" layoutY="106.0" />
+      <TextField fx:id="ortalamaislemsuresi" layoutX="199.0" layoutY="171.0" />
+      <Button layoutX="242.0" layoutY="211.0" mnemonicParsing="false" onAction="#urun_ekle_button" text="Ürun Ekle" />
+      <Button layoutX="462.0" layoutY="266.0" mnemonicParsing="false" onAction="#urun_sil_button" text="Ürün Sil" />
+      <ListView fx:id="listview_urunler" layoutX="404.0" layoutY="106.0" prefHeight="149.0" prefWidth="200.0" />
+      <Label layoutX="213.0" layoutY="59.0" text="Yeni Ürün Ekleme" />
+      <Label layoutX="478.0" layoutY="52.0" text="Mevcut Ürünler" />
+      <Label layoutX="65.0" layoutY="110.0" text="Ürün Açıklaması" />
+      <Label layoutX="65.0" layoutY="174.0" text="Ortalama İşlem Süresi" />
+   </children>
+</AnchorPane>

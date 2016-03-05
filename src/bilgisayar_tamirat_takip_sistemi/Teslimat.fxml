@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="table_view" prefHeight="413.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bilgisayar_tamirat_takip_sistemi.TeslimatController">
+   <children>
+      <Label layoutX="43.0" layoutY="45.0" text="Ürün Kodu" />
+      <TextField fx:id="urun_kodu" layoutX="109.0" layoutY="41.0" />
+      <Button layoutX="276.0" layoutY="41.0" mnemonicParsing="false" onAction="#urun_getir_button" text="getir" />
+      <Button layoutX="508.0" layoutY="290.0" mnemonicParsing="false" onAction="#teslimati_tamamla_button" text="Teslimatı Tamamla" />
+      <ImageView fitHeight="198.0" fitWidth="492.0" layoutY="216.0" pickOnBounds="true" />
+      <ListView fx:id="list_view" layoutX="46.0" layoutY="77.0" prefHeight="127.0" prefWidth="584.0" />
+   </children>
+</AnchorPane>

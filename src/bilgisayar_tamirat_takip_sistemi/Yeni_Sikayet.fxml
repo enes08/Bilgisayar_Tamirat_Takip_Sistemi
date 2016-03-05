@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="697.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bilgisayar_tamirat_takip_sistemi.Yeni_SikayetController">
+   <children>
+      <Label layoutX="54.0" layoutY="72.0" text="Yeni Şikayetler" />
+      <Label layoutX="54.0" layoutY="118.0" text="Şikayet Açıklaması" />
+      <Label layoutX="368.0" layoutY="72.0" text="Mevcut Şikayetler" />
+      <TextField fx:id="sikayet_aciklamasi" layoutX="159.0" layoutY="114.0" />
+      <Button layoutX="244.0" layoutY="170.0" mnemonicParsing="false" onAction="#sikayeteklebutton" text="Ekle" />
+      <Button layoutX="437.0" layoutY="265.0" mnemonicParsing="false" onAction="#sikayetsilbutton" prefHeight="14.0" prefWidth="49.0" text="Sil" />
+      <ListView fx:id="listview" layoutX="354.0" layoutY="95.0" prefHeight="151.0" prefWidth="274.0" />
+   </children>
+</AnchorPane>

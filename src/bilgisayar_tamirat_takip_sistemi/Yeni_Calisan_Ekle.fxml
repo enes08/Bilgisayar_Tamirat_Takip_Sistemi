@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bilgisayar_tamirat_takip_sistemi.Yeni_Calisan_EkleController">
+   <children>
+      <Label layoutX="68.0" layoutY="72.0" text="isim" />
+      <Label layoutX="70.0" layoutY="111.0" text="Kullanıcı Adı" />
+      <Label layoutX="77.0" layoutY="153.0" text="Şifre" />
+      <Label layoutX="78.0" layoutY="193.0" text="Admin Yetkisi" />
+      <TextField fx:id="yeni_calisanisim" layoutX="173.0" layoutY="68.0" />
+      <TextField fx:id="yeni_calisan_kullaniciadi" layoutX="173.0" layoutY="107.0" />
+      <PasswordField fx:id="yeni_calisan_sifre" layoutX="173.0" layoutY="149.0" />
+      <CheckBox fx:id="yonetici_mi" layoutX="173.0" layoutY="192.0" mnemonicParsing="false" />
+      <Button layoutX="336.0" layoutY="248.0" mnemonicParsing="false" onAction="#yeni_calisan_ekle_button" text="ekle" />
+   </children>
+</AnchorPane>

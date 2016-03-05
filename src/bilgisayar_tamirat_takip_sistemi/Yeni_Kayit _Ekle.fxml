@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="509.0" prefWidth="637.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bilgisayar_tamirat_takip_sistemi.Yeni_Kayit_EkleController">
+   <children>
+      <Label layoutX="46.0" layoutY="42.0" text="Müşterinin" />
+      <Label layoutX="26.0" layoutY="85.0" text="Ad" />
+      <Label layoutX="26.0" layoutY="134.0" text="Soyad" />
+      <Label layoutX="26.0" layoutY="173.0" text="Tür" />
+      <Label layoutX="26.0" layoutY="211.0" text="Şikayet" />
+      <TextField fx:id="musteri_ad" layoutX="84.0" layoutY="81.0" />
+      <TextField fx:id="musteri_soyad" layoutX="84.0" layoutY="130.0" />
+      <ComboBox fx:id="turler_combobox" layoutX="84.0" layoutY="169.0" prefWidth="150.0" />
+      <ComboBox fx:id="sikayetler_combobox" layoutX="84.0" layoutY="207.0" prefWidth="150.0" />
+      <Button layoutX="263.0" layoutY="207.0" mnemonicParsing="false" onAction="#ekle_button" text="Ekle" />
+      <ListView fx:id="listview" layoutX="33.0" layoutY="275.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="468.0" layoutY="42.0" text="Düzeenleyen" />
+      <Label layoutX="347.0" layoutY="85.0" text="Ad Soyad" />
+      <Label layoutX="347.0" layoutY="134.0" text="Verildiği Tarih" />
+      <Label layoutX="347.0" layoutY="173.0" text="Alınacağı Tarih" />
+      <Label layoutX="347.0" layoutY="211.0" text="Tutar" />
+      <Button layoutX="458.0" layoutY="261.0" mnemonicParsing="false" onAction="#kaydet_button" text="Kaydet" />
+      <Label fx:id="duzenleyen_label" layoutX="457.0" layoutY="85.0" text="haydar Kara" />
+      <TextField fx:id="tutar" layoutX="433.0" layoutY="207.0" />
+      <TextField fx:id="verildigi_tarih" layoutX="432.0" layoutY="130.0" />
+      <TextField fx:id="alinacagi_tarih" layoutX="432.0" layoutY="169.0" />
+   </children>
+</AnchorPane>

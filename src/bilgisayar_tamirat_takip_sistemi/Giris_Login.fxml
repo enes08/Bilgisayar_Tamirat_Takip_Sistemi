@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="panelim" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bilgisayar_tamirat_takip_sistemi.Giris_LoginController">
+   <children>
+      <Button layoutX="115.0" layoutY="382.0" mnemonicParsing="false" onAction="#handleButtonAction1" text="Yönetici Girişi" />
+      <Button layoutX="424.0" layoutY="382.0" mnemonicParsing="false" onAction="#handleButtonAction2" text="Çalışan Girişi" />
+      <TextField fx:id="textogrkullaniciadi" layoutX="358.0" layoutY="226.0" text="enes_08" />
+      <PasswordField fx:id="textogrkullanicisifre" layoutX="358.0" layoutY="284.0" text="12345" />
+      <Label layoutX="249.0" layoutY="230.0" text="Kullanıcı Adı" />
+      <Label layoutX="249.0" layoutY="288.0" text="Şifre" />
+      <ImageView fx:id="loginresim" fitHeight="116.0" fitWidth="156.0" layoutX="87.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="ust_resim" fitHeight="175.0" fitWidth="334.0" layoutX="243.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

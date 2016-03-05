@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bilgisayar_tamirat_takip_sistemi.Yeni_TamiratController">
+   <children>
+      <Label layoutX="65.0" layoutY="65.0" text="Yeni Tamirat Tipi Ekle" />
+      <Label layoutX="414.0" layoutY="65.0" text="Mevcut Tamir Tipleri" />
+      <Label layoutX="39.0" layoutY="101.0" text="Tamirat Açıklaması" />
+      <Label layoutX="39.0" layoutY="148.0" text="Standart Ücret" />
+      <Button layoutX="226.0" layoutY="258.0" mnemonicParsing="false" onAction="#Yeni_Tamirat_Tipi_Ekle" text="Ekle" />
+      <Button layoutX="475.0" layoutY="258.0" mnemonicParsing="false" onAction="#Yeni_Tamirat_Tipi_Sil" text="Sil" />
+      <ListView fx:id="listview" layoutX="364.0" layoutY="101.0" prefHeight="143.0" prefWidth="200.0" />
+      <TextField fx:id="tamirataciklamasi" layoutX="159.0" layoutY="97.0" />
+      <TextField fx:id="standartucret" layoutX="159.0" layoutY="144.0" />
+   </children>
+</AnchorPane>
